@@ -1,6 +1,5 @@
 import streamlit as st
 st.title("hello world")
-st.header("page")
-st.subheader("23591")
-st.text("hi!I'm a robot!")
-st.text_input
+st.header("by ??? ")
+st.subheader("It's a streamlit page.")
+st.text("succeded")

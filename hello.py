@@ -11,6 +11,9 @@ age = st.slider('How old are you?', 0, 130, 18)
 
 name = st.text_input('What is your name', 'Your name')
 
-st.write('Your name is' , ' ' , name , ', your gender is', ' ' , genre,  ', your age is' , ' ', age , ', OK?')
+d = st.date_input
+    "When is your birth day?"
+    datetime.date(2022,3,25))
 
-st.write("Soko no omae, kono saito wo mitana! Korede omae tomo enn ga dekitana!")
+st.write('Your name is', ' ', name, ', your gender is', ' ' , genre,  ', your birthday is', ' ' d, , 'your age is' , ' ', age , ', OK?')
+

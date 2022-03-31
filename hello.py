@@ -1,5 +1,14 @@
 import streamlit as st
-st.title("hello world")
-st.header("by 2")
-st.subheader("It's a streamlit page.")
-st.text("setuna no katiwari mega ton mikiri punch ")
+st.title("Question about you")
+st.header("by ta2")
+st.subheader("It's a page.")
+
+genre = st.radio(
+    "What is Your gender?",
+    ('men', 'women' 'other'))
+
+age = st.slider('How old are you?', 0, 130 18)
+
+name = st.text_input('What is your name', 'Your name')
+
+st.write('Your Name is' , ' ' , name)

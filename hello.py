@@ -11,7 +11,4 @@ age = st.slider('How old are you?', 0, 130, 18)
 
 name = st.text_input('What is your name', 'Your name')
 
-d = st.date_input(
-    "When is your birth day?")
-
-
+st.text(f"hello!: {name}")

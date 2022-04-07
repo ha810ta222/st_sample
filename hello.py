@@ -11,4 +11,9 @@ age = st.slider('How old are you?', 0, 130, 18)
 
 name = st.text_input('What is your name', 'Your name')
 
-st.text(f"hello!: {name}")
+st.text(f"hello! {name}")
+
+chart_data = pd.DataFrame(
+    np.random.randn(20, 4),
+    columns=['k' 'd' 'm'])
+st.line_chart(chart_data)
